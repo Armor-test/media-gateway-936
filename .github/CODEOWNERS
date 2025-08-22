@@ -1,0 +1,37 @@
+# CODEOWNERS file for media-gateway-936
+# Global owners - will be requested for all PRs
+* @Armor-test/team-core @Armor-test/grp-reporting @Armor-test/grp-payments
+
+# Directory ownership
+/vendor/ @Armor-test/team-research @Armor-test/squad-product @Armor-test/unit-test
+/config/ @Armor-test/team-reporting @Armor-test/squad-cache @Armor-test/squad-cloud
+/hooks/ @Armor-test/dept-reliability @Armor-test/squad-search
+/pkg/ @Armor-test/squad-ml @Armor-test/dept-data
+/data/ @Armor-test/dept-security @Armor-test/squad-search @Armor-test/dept-notifications
+/examples/ @Armor-test/squad-apps @Armor-test/squad-ml @Armor-test/team-core
+/src/ @Armor-test/dept-notifications @Armor-test/dept-billing
+/docs/ @Armor-test/team-frontend @Armor-test/dept-logging
+/plugins/ @Armor-test/dept-notifications @Armor-test/squad-cloud @Armor-test/dept-test
+/modules/ @Armor-test/dept-billing @Armor-test/grp-ui @Armor-test/squad-cache
+/core/ @Armor-test/dept-api @Armor-test/dept-automation
+/public/ @Armor-test/squad-database @Armor-test/dept-automation
+/api/ @Armor-test/team-research @Armor-test/dept-billing @Armor-test/squad-search
+/views/ @Armor-test/squad-tooling @Armor-test/dept-data
+
+# File type ownership
+*.js @Armor-test/squad-frontend @Armor-test/team-frontend
+*.lock @Armor-test/dept-billing @Armor-test/dept-notifications @Armor-test/dept-reliability
+*.php @Armor-test/squad-product @Armor-test/dept-reporting @Armor-test/grp-api
+*.html @Armor-test/dept-ui @Armor-test/unit-cloud @Armor-test/dept-notifications
+*.json @Armor-test/dept-security @Armor-test/dept-reliability @Armor-test/unit-test
+*.c @Armor-test/squad-tooling @Armor-test/squad-cache @Armor-test/dept-notifications
+*.gradle @Armor-test/dept-release @Armor-test/squad-search
+*.scala @Armor-test/unit-test @Armor-test/unit-design @Armor-test/squad-research
+*.go @Armor-test/squad-ml @Armor-test/dept-billing @Armor-test/team-reporting
+*.swift @Armor-test/team-reporting @Armor-test/squad-ux @Armor-test/grp-search
+*.yaml @Armor-test/team-governance @Armor-test/unit-cloud
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
